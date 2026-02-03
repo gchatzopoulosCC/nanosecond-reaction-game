@@ -29,3 +29,7 @@ It is assumed that the Push Button and the LED are connected to the PA_0 and PA_
 ## Display
 
 To observe the project's functionality, several steps are required. The project is only visible in _DEBUG_ mode, and the Debugger's Core Clock **MUST** be the same as your HCLK (84 MHz). Furthermore, the ITM reports to the **SMV ITM Data Console** that you have to _manually_ open from the Window tab. It is important to note that the SMV ITM Data Console _must_ be configured to run on a Port (Configure Trace -> Port 0) and start recording (the red button next to Configure Trace).
+
+## User Code
+
+The user code will be found in the _Src/main.c_ between all the appropriate comment blocks.
